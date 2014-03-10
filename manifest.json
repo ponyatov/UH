@@ -1,10 +1,20 @@
 {
 	"manifest_version" : 2,
+
 	"name" : "UserHash", // Название расширения
 	"version" : "0.0.1", // Версия
 	"description" : "Distributed Social Network proto", // Краткое описание
+	"icons" : { 
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+
+	"author" : "dponyatov@gmail.com",
+	"homepage_url" : "https://github.com/ponyatov/UH",
+
 	"browser_action": {
-	    "default_icon": "icon.png",
+		"default_icon": "icon.png",
 		"default_popup": "popup.html"
 	}
 }
