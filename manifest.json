@@ -5,16 +5,18 @@
 	"version" : "0.0.1", // Версия
 	"description" : "Distributed Social Network proto", // Краткое описание
 	"icons" : { 
-		"16": "icon.png",
-		"48": "icon.png",
-		"128": "icon.png"
+		"16": "arrow_green_down-150x150.png",
+		"48": "arrow_green_down-150x150.png",
+		"128": "arrow_green_down-150x150.png"
 	},
 
 	"author" : "dponyatov@gmail.com",
 	"homepage_url" : "https://github.com/ponyatov/UH",
 
+	"permissions": ["contextMenus"],
+
 	"browser_action": {
-		"default_icon": "icon.png",
+		"default_icon": "arrow_green_down-150x150.png",
 		"default_popup": "popup.html"
 	}
 }
