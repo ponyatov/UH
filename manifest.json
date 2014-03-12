@@ -5,9 +5,9 @@
 	"version" : "0.0.1", // Версия
 	"description" : "Distributed Social Network proto", // Краткое описание
 	"icons" : { 
-		"16": "arrow_green_down-150x150.png",
-		"48": "arrow_green_down-150x150.png",
-		"128": "arrow_green_down-150x150.png"
+		"16": "icon-quality-collaboration.png",
+		"48": "icon-quality-collaboration.png",
+		"128": "icon-quality-collaboration.png"
 	},
 
 	"author" : "dponyatov@gmail.com",
@@ -16,7 +16,7 @@
 	"permissions": ["contextMenus"],
 
 	"browser_action": {
-		"default_icon": "arrow_green_down-150x150.png",
+		"default_icon": "icon-quality-collaboration.png",
 		"default_popup": "popup.html"
 	}
 }
